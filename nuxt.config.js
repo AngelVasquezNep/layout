@@ -1,7 +1,7 @@
 module.exports = {
-  router:{
-    base: '/nuxt-prueba/'
-  },
+  // router:{
+  //   base: '/nuxt-prueba/'
+  // },
   /*
   ** Headers of the page
   */
@@ -13,7 +13,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*
