@@ -1,4 +1,7 @@
 module.exports = {
+  router:{
+    base: '/nuxt-prueba/'
+  },
   /*
   ** Headers of the page
   */
