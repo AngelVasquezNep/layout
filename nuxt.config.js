@@ -1,7 +1,7 @@
 module.exports = {
-  // router:{
-  //   base: '/nuxt-prueba/'
-  // },
+  router:{
+    base: '/nuxt-prueba/'
+  },
   /*
   ** Headers of the page
   */
