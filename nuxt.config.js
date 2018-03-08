@@ -1,6 +1,6 @@
 module.exports = {
   router:{
-    base: '/nuxt-prueba/'
+    base: '/layout/'
   },
   
   /*
