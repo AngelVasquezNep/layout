@@ -1,7 +1,7 @@
 module.exports = {
-  router:{
-    base: '/layout/'
-  },
+  // router:{
+  //   base: '/layout/'
+  // },
   
   /*
   ** Headers of the page

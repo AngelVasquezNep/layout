@@ -1,6 +1,6 @@
 <template lang="pug">
   .platzi.center
-    h2 Landing de Platzi
+    h2 🌠 Landing de Platzi 🚀 
     .hero
       .hero-container
         .badge
