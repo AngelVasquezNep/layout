@@ -223,6 +223,18 @@
     font-weight: bold
     display: inline-block
 
+  input
+    width: 100%
+    padding: 10px
+    font-size: 16px
+    border: 1px solid #dbdbe2
+    border-radius: 5px
+    box-sizing: border-box
+    margin-bottom: 10px
+    outline: none
+    &:focus
+      box-shadow: 0 0 2px 2px darkcyan
+
   @media screen and (max-width: 768px)
     .post-list
       grid-gap: 3px

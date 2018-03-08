@@ -36,6 +36,7 @@
 
     .myheader
       grid-column: span 2
+      // position: fixed
 
     .nuxt 
       grid-column: span 2
