@@ -3,7 +3,6 @@
       app-logo
       h1 mi-sitio
       h2 mi otro sitio
-      router-link(to="about") Nosotros
 
 </template>
 

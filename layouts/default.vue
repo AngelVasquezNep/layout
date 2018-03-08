@@ -17,16 +17,21 @@
 <style lang="sass" >
   body 
     margin: 0
+  
+  a 
+    text-decoration: none
+    color: #000
 
   .center
     display: grid
     justify-content: center
-    justify-items: center
+    align-items: center
+    text-align: center
   
   .default
     display: grid
     grid-template-columns: 1fr 1fr
-    grid-template-rows: 100px auto 75px 
+    // grid-template-rows: 75px 1fr 100px 
     min-height: 100vh
 
     .myheader

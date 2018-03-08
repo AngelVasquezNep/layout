@@ -10,6 +10,8 @@
 </script>
 
 <style lang="sass" scoped>
-  .footer 
+  .footer
+    margin-top: 20px  
+    color: #fff 
     background-color: #32aaaa
 </style>
