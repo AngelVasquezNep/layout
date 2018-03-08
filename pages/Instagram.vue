@@ -1,13 +1,30 @@
 <template lang="pug">
   .instagram
     section.headerInsta.center
-      .logo
-        | Instagram
+      .logo 
+        p 📷 
+        p Instagram
       .buscador
-        input#buscador(type='search', name='buscador', placeholder='buscar')
-      .iconos B
+        input(type='search', name='buscador', placeholder='buscar')
+      .icons 
+        p 🌎  
+        p 💜  
+        p 👤
        
     section.user
+      .perfil.center
+        figure.fotoPerfil
+          img(src="~/assets/avatar-batman.jpg")
+        .datos.center
+            h2 BatmanOriginal
+            p 
+             span 147 
+             | publicaciones  
+             span 5302 
+             | seguidores 
+             span 123 
+             | seguidos
+            p Batman Bruno Díaz 
 
     section.post-list
       a.post(href='#')
@@ -19,7 +36,28 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-1.jpg', alt='')
+          img(src='~/assets/avatar-batman.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/acuarela.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/batman-3.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/happiness.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -33,7 +71,21 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-3.jpg', alt='')
+          img(src='~/assets/batman-1.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/acuarela-1.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/react.png', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -47,7 +99,28 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-1.jpg', alt='')
+          img(src='~/assets/avatar-batman.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/acuarela.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/batman-3.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/happiness.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -61,7 +134,21 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-3.jpg', alt='')
+          img(src='~/assets/batman-1.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/acuarela-1.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/react.png', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -75,42 +162,14 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-1.jpg', alt='')
+          img(src='~/assets/avatar-batman.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman-2.jpg', alt='')
+          img(src='~/assets/acuarela.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -124,14 +183,7 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman-1.jpg', alt='')
+          img(src='~/assets/happiness.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
@@ -145,11 +197,27 @@
             span.post-comments 10
       a.post(href='#')
         figure.post-image
-          img(src='~/assets/batman-3.jpg', alt='')
+          img(src='~/assets/batman-1.jpg', alt='')
         span.post-overlay
           p
             span.post-likes 150
             span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/acuarela-1.jpg', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/react.png', alt='')
+        span.post-overlay
+          p
+            span.post-likes 150
+            span.post-comments 10
+      
+      
 
 </template>
 
@@ -160,23 +228,78 @@
 </script>
 
 <style lang="sass" scoped>
+  .instagram
+
   .headerInsta
     display: grid
-    margin: 20px 0
-    padding: 20px 0
-    grid-template-columns: repeat(3, minmax(min-content, 293px))
+    
     grid-template-columns: repeat(3, minmax(100px, 293px))
     justify-content: center
     align-items: center
     text-align: center
+    border-bottom: 1px solid #dcdcdc
 
+  .logo 
+    font-size: 2em
+    line-height: 50px
+    font-family: 'Lobster', cursive
+
+    
+  .logo p
+    display: inline-block
+    padding: 0 10px 
+  .logo p:first-child
+    border-right: 1px solid grey  
+
+  .icons
+    font-size: 2em
+    cursor: pointer
+    p
+      transition: .2s
+      display: inline-block
+      padding: 5px 10px
+      &:active
+        transform: scale(.8)
+
+  // Perfil
+  .user
+    background-color: #FAFAFA
+    padding: 30px 0
+
+  .perfil
+    margin: 0 auto
+    max-width: 1024px
+    grid-template-columns: minmax(auto, 300px) 1fr 
+
+  .fotoPerfil
+    margin: 0 auto
+    position: relative
+    width: 150px
+    height: 150px
+    overflow: hidden
+    border-radius: 50% 
+    img
+      top: -61%
+      left: -26%
+      position: absolute
+      width: 150%
+
+  .datos 
+    justify-content: start
+    text-align: start
+    font-size: 1.1em
+    
+    span 
+      font-weight: bold
   /* Post Insta */
 
   .post-list
     display: grid
     grid-template-columns: repeat(auto-fill, minmax(100px, 293px))
     justify-content: center
-    grid-gap: 25px
+    grid-gap: 39px
+    background-color: #FAFAFA
+    
 
   .post
     cursor: pointer
@@ -223,14 +346,13 @@
     font-weight: bold
     display: inline-block
 
-  input
+  .buscador input
+    text-align: center
     width: 100%
-    padding: 10px
-    font-size: 16px
+    padding: 8px
     border: 1px solid #dbdbe2
     border-radius: 5px
     box-sizing: border-box
-    margin-bottom: 10px
     outline: none
     &:focus
       box-shadow: 0 0 2px 2px darkcyan

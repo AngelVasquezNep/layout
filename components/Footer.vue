@@ -1,6 +1,10 @@
 <template lang="pug">
   .footer.center
-    h2 Soy un Footer
+    h4 By Ángel Vásquez 
+    p 🚀 Twitter 
+      a(href="http://twitter.com/angelvasqueznep" target="_blank") @angelvasqueznep
+    p 🐱 
+      a(href="https://github.com/angelvasqueznep/layout" target="_blanck") GitHub
 </template>
 
 <script>
@@ -15,4 +19,12 @@
     color: #fff 
     background-color: #32aaaa
     background-color: #3B8070
+    font-weight: initial
+    grid-template-columns: repeat(3, minmax(max-content, 1fr))
+    a 
+      color: #fff;
+      text-decoration: none;
+  @media screen and (max-width: 544px)
+    .footer
+      grid-template-columns: auto
 </style>

@@ -23,10 +23,12 @@
     background-color: #32aaaa
     background-color: #3B8070
     margin-bottom: 20px
+    height: 70px 
     
     .title
       grid-area: title
       padding: 0 10px
+      margin: 0
     .home
       grid-area: home
     .instagram
@@ -41,6 +43,7 @@
   
   @media screen and (max-width: 768px)
     .header 
+      height: 100px
       grid-template-columns: repeat(4, 1fr)
       grid-template-areas: "title title title title" "home instagram platzi pinterest"
 
