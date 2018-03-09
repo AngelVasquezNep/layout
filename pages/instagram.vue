@@ -223,7 +223,7 @@
 
 <script>
   export default {
-    name: "Instagram"
+    name: "instagram"
   }
 </script>
 

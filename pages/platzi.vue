@@ -27,7 +27,7 @@
 
 <script>
   export default {
-    name: "Platzi",
+    name: "platzi",
     methods: {
       algo(){
         console.log("Algo")

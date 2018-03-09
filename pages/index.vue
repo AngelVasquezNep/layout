@@ -3,7 +3,7 @@
       app-logo
       h1 CSS GRID LAYOUT
       p ¡ Bienvenidos !
-      p Este es una proyecto que nace del curso de CSS GRID LAYOUT de Platzi. 
+      p Este es una proyecto que nace del curso de CSS GRID LAYOUT de Platzi
 </template>
 
 <script>

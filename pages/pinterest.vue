@@ -69,7 +69,7 @@
 
 <script>
   export default {
-    name: "Pinterest"
+    name: "pinterest"
   }
 </script>
 
