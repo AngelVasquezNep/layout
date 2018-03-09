@@ -328,4 +328,16 @@
   @media screen and (max-width: 768px)
     .post-list
       grid-gap: 3px
+
+  @media screen and (max-width: 650px)
+    .headerInsta
+      grid-template-columns: minmax(127px,420px)
+    .perfil 
+      grid-template-columns: 1fr
+      .datos
+        margin: 0 auto
+        text-align: center
+    .post-list
+      grid-gap: 15px
+
 </style>

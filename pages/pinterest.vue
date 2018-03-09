@@ -116,4 +116,10 @@ p
   &:hover
     box-shadow: inset 0 -1px 1px 1px red
 
+@media screen and (max-width: 544px)
+  .container
+    grid-template-columns: repeat(auto-fill, 220px)
+
+
+
 </style>
