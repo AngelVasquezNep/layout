@@ -1,7 +1,7 @@
 module.exports = {
-  // router:{
-  //   base: '/layout/'
-  // },
+  router:{
+    base: '/layout/'
+  },
   
   /*
   ** Headers of the page
@@ -31,9 +31,9 @@ module.exports = {
     */
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
+        test: /\.(js|vue)$/,
         config.module.rules.push({
           enforce: 'pre',
-          test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
