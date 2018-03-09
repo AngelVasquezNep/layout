@@ -2,9 +2,9 @@
   .header.center
     h1.title CSS GRID LAYOUT
     router-link.home(to="/") Home
-    router-link.instagram(to="instagram") Instagram
-    router-link.platzi(to="platzi") Platzi
-    router-link.pinterest(to="pinterest") Pinterest
+    router-link.instagram(to="/instagram") Instagram
+    router-link.platzi(to="/platzi") Platzi
+    router-link.pinterest(to="/pinterest") Pinterest
     
 </template>
 
