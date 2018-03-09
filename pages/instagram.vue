@@ -20,6 +20,13 @@
             p <span> 147</span> publicaciones  <span> 5302</span> seguidores <span> 123</span> seguidos
             p Batman Bruno Díaz 
 
+    section.post-list
+      a.post(href='#')
+        figure.post-image
+          img(src='~/assets/batman.jpg', alt='')
+        .post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+
     //- section.post-list
       a.post(href='#')
         figure.post-image
