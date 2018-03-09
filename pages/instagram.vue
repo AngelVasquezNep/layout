@@ -17,205 +17,172 @@
           img(src="~/assets/avatar-batman.jpg")
         .datos.center
             h2 BatmanOriginal
-            p 
-             span 147 
-             | publicaciones  
-             span 5302 
-             | seguidores 
-             span 123 
-             | seguidos
+            p <span> 147</span> publicaciones  <span> 5302</span> seguidores <span> 123</span> seguidos
             p Batman Bruno Díaz 
 
     section.post-list
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay
-          p
-            span.post-likes 150
-            span.post-comments 10
+        span.post-overlay 
+          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
+            
       
       
 
@@ -291,6 +258,7 @@
     
     span 
       font-weight: bold
+      
   /* Post Insta */
 
   .post-list
