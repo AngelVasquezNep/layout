@@ -1,7 +1,23 @@
 <template lang="pug">
   .pinterest
-    h2.title Pinterest
-
+    .headerPinterest.center
+      .logo
+        figure
+          img(src='~/assets/batman-3.jpg')
+      .buscador
+        input(type="search", placeholder="Buscar")
+      .opciones
+        p 
+          a(href="#") Inicio
+        p 
+          a(href="#") Explorar
+        p 
+          a(href="#") Batman
+        p 
+          a(href="#") 🗨️
+        p 
+          a(href="#") ⚪⚪⚪
+      
     .container
       .item.level-3
         img(src='~/assets/pinterest-5.jpg', alt='')
@@ -75,6 +91,53 @@
 
 <style lang="sass" scoped>
 
+.headerPinterest
+  grid-template-columns: 50px 1fr auto
+  grid-gap: 10px
+  padding: 10px
+  border-bottom: 1px solid #dcdcdc
+  margin-bottom: 20px
+  .logo
+    figure
+      margin: 0
+      width: 100%
+      height: 50px
+      overflow: hidden
+      padding: 10px
+      box-sizing: border-box
+      position: relative
+      border-radius: 50%
+      img
+        width: 400%
+        position: absolute
+        left: -82px
+        top: -50px
+        transform: rotate(-25deg)
+  .buscador
+    input
+      outline: none
+      width: 100%
+      height: 40px
+      border: 1px solid #f1f1f1
+      border-radius: 5px
+      padding: 0 10px
+      font-size: 1.1rem
+      background-color: #dcdcdc
+      &:focus
+        box-shadow: 0 0 0px 3px #8EB5FF
+
+  .opciones
+    height: 100%
+    p
+      display: inline-block
+      height: 100%
+      margin: 0
+      padding: 0
+      a
+        padding: 0 10px
+        align-items: center
+        height: 100%
+        display: flex
 .title
   text-align: center
 
@@ -108,15 +171,17 @@
   grid-row-end: span 5
 
 p
-  font-size: 2rem
   padding: 3px 10px
   display: inline-flex
-  font-weight: bold
-  border-radius: 50%
-  &:hover
-    box-shadow: inset 0 -1px 1px 1px red
 
 @media screen and (max-width: 544px)
+  .headerPinterest
+    grid-template-columns: 50px 1fr
+    .opciones
+      padding: 10px 0
+      display: flex
+      justify-content: space-evenly
+      grid-column: span 2
   .container
     grid-template-columns: repeat(auto-fill, 220px)
 
