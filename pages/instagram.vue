@@ -26,168 +26,161 @@
           img(src='~/assets/batman.jpg', alt='')
         .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
-
-    //- section.post-list
-      a.post(href='#')
-        figure.post-image
-          img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay 
-          p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/avatar-batman.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-3.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/happiness.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-2.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/acuarela-1.jpg', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       a.post(href='#')
         figure.post-image
           img(src='~/assets/react.png', alt='')
-        span.post-overlay 
+        .post-overlay 
           p <span class="post-likes"> 150</span> <span class="post-comments"> 10</span>
             
       
