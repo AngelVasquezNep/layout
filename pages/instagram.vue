@@ -20,7 +20,7 @@
             p <span> 147</span> publicaciones  <span> 5302</span> seguidores <span> 123</span> seguidos
             p Batman Bruno Díaz 
 
-    section.post-list
+    //- section.post-list
       a.post(href='#')
         figure.post-image
           img(src='~/assets/batman.jpg', alt='')
