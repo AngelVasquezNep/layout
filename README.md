@@ -40,6 +40,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ### Autor
 
 Mi nombre es Ángel Vásquez, desarrollador JS jr.
+
 󠁶🚀 Me gusta Vue.js y React.
 
 [GitHub](https://github.com/angelvasqueznep)
