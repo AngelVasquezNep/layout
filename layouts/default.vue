@@ -23,16 +23,18 @@
     color: #000
 
   .center
+    width: 100%
     display: grid
-    justify-content: center
+    margin: 0 auto
+    // justify-content: center
     align-items: center
     text-align: center
   
   .default
     display: grid
     grid-template-columns: 1fr 1fr
-    // grid-template-rows: 75px 1fr 100px 
     min-height: 100vh
+    // grid-template-rows: 75px 1fr 100px 
 
     .myheader
       grid-column: span 2

@@ -1,12 +1,11 @@
 <template lang="pug">
   .header-container
-    .header.center(:class="valor1")
+    .header.center
       h1.title CSS GRID LAYOUT
       router-link.home(to="/") Home
       router-link.instagram(to="instagram") Instagram
       router-link.platzi(to="platzi") Platzi
       router-link.pinterest(to="pinterest") Pinterest
-    Barra
 
 </template>
 
@@ -15,32 +14,28 @@ import Barra from '~/components/Barra.vue'
 
 export default {
   name: "Header",
-  components: { Barra },
   data () {
     return {
-      valor: 100
+
     }
   },
 
   mounted() {
     this.$bus.$on('valor', (newValor) => {
       this.valor = newValor
+      console.log(newValor)
     })
-  },
-
-  computed: {
-    valor1 () {
-      return {
-        is768: this.valor < 90
-      }
-    }
   }
+
 }
 </script>
 
 <style lang="sass" scoped>
-  .red
-    border: 1px solid red
+
+  .header-container
+    margin: 0 auto
+    width: 100%
+    justify-content: center
 
   .header
     padding: 10px 0
@@ -69,15 +64,13 @@ export default {
      color: #fff
      text-transform: uppercase
   
-  @media screen and (max-width: 768px)
-    .header 
+  @mixin media768
       height: 100px
       grid-template-columns: repeat(4, 1fr)
       grid-template-areas: "title title title title" "home instagram platzi pinterest"
+  
+  @media screen and (max-width: 768px)
+    .header 
+      @include media768
 
-  .is768
-    width: 768px
-    height: 100px
-    grid-template-columns: repeat(4, 1fr)
-    grid-template-areas: "title title title title" "home instagram platzi pinterest"
 </style>

@@ -94,7 +94,7 @@
 .headerPinterest
   grid-template-columns: 50px 1fr auto
   grid-gap: 10px
-  padding: 10px
+  padding: 10px 0
   border-bottom: 1px solid #dcdcdc
   margin-bottom: 20px
   .logo
