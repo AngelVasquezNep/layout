@@ -9,6 +9,22 @@ Projecto de Layout con CSS Grid
 El presente es un proyecto personal realizado para ejercitar habilidades relacionadas con maquetación y [Vue.js](https://vuejs.org/), que en este caso fue desarrollado bajo un template de [Nuxt.js](https://nuxtjs.org/).
 
 
+### Instagram - Platzi - Pinterest
+
+**Instagram** debe cambiará a CSS grid muy pronto.
+
+![Instagram](https://raw.githubusercontent.com/AngelVasquezNep/layout/master/assets/layout-1.png)
+
+**Platzi** es la escuela a la siempre quise ir.
+
+![Platzi](https://raw.githubusercontent.com/AngelVasquezNep/layout/master/assets/layout-2.png)
+
+Mi profe favorito dijo 'en tu cara **Pinterest**' y vaya que le hace falta integrar CSS grid layout a su stack.
+
+![Pinterest](https://raw.githubusercontent.com/AngelVasquezNep/layout/master/assets/layout-3.png)
+
+
+
 ## Build Setup
 
 ``` 
@@ -39,7 +55,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 ### Autor
 
-Mi nombre es Ángel Vásquez, desarrollador JS jr.
+Mi nombre es Ángel Vásquez, desarrollador JS.
 
 󠁶🚀 Me gusta Vue.js y React.
 
