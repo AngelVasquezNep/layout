@@ -1,18 +1,13 @@
 <template lang="pug">
   section.index.center
-      app-logo
-      h1 CSS GRID LAYOUT
-      p ¡ Bienvenidos !
-      p Este es una proyecto que nace del curso de CSS GRID LAYOUT de Platzi
+    Grid
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import Grid from '~/components/Grid.vue'
 
 export default {
-  components: {
-    AppLogo
-  }
+  components: { Grid }
 }
 </script>
 

@@ -34,7 +34,7 @@
     display: grid
     grid-template-columns: 1fr 1fr
     min-height: 100vh
-    // grid-template-rows: 75px 1fr 100px 
+    grid-template-rows: auto 1fr auto 
 
     .myheader
       grid-column: span 2
@@ -45,6 +45,23 @@
 
     .myfooter
       grid-column: span 2
+  
+  .btn 
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid #1f1f1f;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: all .1s;
+    outline: none;
+    background-color: #fff;
+    &:hover,
+    &:focus 
+      color: #fff
+      background-color: #42E0C3
+      cursor: pointer
+    &:active 
+      transform: scale(.95)
 
 
 </style>
