@@ -42,8 +42,9 @@ export default {
     color: #fff
     grid-template-columns: repeat(6, 1fr)
     grid-template-areas: "title title home instagram platzi pinterest"
-    background-color: #32aaaa
     background-color: #3B8070
+    background-color: #4B6AD3
+    background-color: #32aaaa
     height: 70px 
     transition: .5s all
     // margin-bottom: 20px

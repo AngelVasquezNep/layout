@@ -1,26 +1,45 @@
 <template lang="pug">
   .Grid
-    .item.item1.center Súper animación
-    .item.item2.center CSS Grid
-    .item.item3.center Animaciones
-    .item.item4.center Animaciones
-    .item.item5.center Animaciones
-    .item.item6.center Animaciones
-    .item.item7.center Layout
+    .item.item1.center 
+      img(src="~/assets/lego-1.png", alt="L")
+    .item.item2.center 
+      img(src="~/assets/lego-2.png", alt="L")
+    .item.item3.center 
+      img(src="~/assets/lego-5.png", alt="L")
+    .item.item4.center 
+      img(src="~/assets/lego-5.png", alt="L")
+    .item.item5.center 
+      img(src="~/assets/lego-5.png", alt="L")
+    .item.item6.center 
+      img(src="~/assets/lego-5.png", alt="L")
+    .item.item7.center 
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item8.center
+      img(src="~/assets/lego-3.png", alt="L")
     .item.item9.center
+      img(src="~/assets/lego-4.png", alt="L")
     .item.item10.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item11.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item12.center
+      img(src="~/assets/lego-8.png", alt="L")
     .item.item13.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item14.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item15.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item16.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item17.center
+      img(src="~/assets/lego-2.png", alt="L")
     .item.item18.center
+      img(src="~/assets/lego-6.png", alt="L")
     .item.item19.center
+      img(src="~/assets/lego-7.png", alt="L")
     .item.item20.center
-    //- .item.item21.center
+      img(src="~/assets/lego-2.png", alt="L")
 </template>
 
 <script>
@@ -38,10 +57,11 @@ export default {
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
     height: 100%;
-    @media screen and (max-width: 700px){
-      grid-template-columns: repeat(3, 1fr)
+    .item {
+      color: #363636;
+      img { margin: 0 auto; max-width: 100%;}
     }
-    .item {color: #363636}
+
     .item1{ color: #f1f1f1 }
 
     grid-template-areas: 
@@ -53,7 +73,7 @@ export default {
     transition: 1s all;
     animation: move 5s forwards infinite linear alternate;
     @keyframes move {
-      0% {
+      15% {
         grid-template-areas: 
                       "i17 i18 i1  i19 i20"
                       "i3  i8  i7  i9  i6" 
@@ -61,7 +81,7 @@ export default {
                       "i16 i13 i2  i10 i14"
                       ;
       }
-      10% {
+      25% {
         grid-template-areas: 
                       "i17 i18 i7  i19 i20"
                       "i3  i8  i1  i9  i6" 
@@ -69,7 +89,7 @@ export default {
                       "i16 i13 i2  i10 i14"
                       ;
       }
-      20% {
+      35% {
         grid-template-areas: 
                       "i17 i8   i7  i9  i20"
                       "i3  i18  i12 i19  i6" 
@@ -77,7 +97,7 @@ export default {
                       "i16 i13  i2  i10 i14"
                       ;
       }
-      30% {
+      45% {
         grid-template-areas: 
                       "i3  i8   i7  i9  i6"
                       "i17 i4   i12 i5  i20" 
@@ -85,7 +105,8 @@ export default {
                       "i16 i13  i1  i10 i14"
                       ;
       }
-      40% {
+      //Inicio
+      55% {
         grid-template-areas: 
                       "i3  i9   i5  i19 i6"
                       "i17 i7   i12 i2  i20" 
@@ -93,7 +114,7 @@ export default {
                       "i16 i13  i1  i10 i14"
                       ;
       }
-      50% {
+      65% {
         grid-template-areas: 
                       "i3  i19  i2  i18 i6"
                       "i17 i5   i12 i4  i20" 
@@ -101,7 +122,7 @@ export default {
                       "i16 i13  i1  i10 i14"
                       ;
       }
-      60% {
+      75% {
         grid-template-areas: 
                       "i3  i18   i4  i8  i6"
                       "i17 i2   i12 i7  i20" 
@@ -109,7 +130,7 @@ export default {
                       "i16 i13  i1  i10 i14"
                       ;
       }
-      70% {
+      85% {
         grid-template-areas: 
                       "i3  i8   i7  i9  i6"
                       "i17 i4   i12 i5  i20" 
@@ -117,15 +138,8 @@ export default {
                       "i16 i13  i1  i10 i14"
                       ;
       }
-      80% {
-        grid-template-areas: 
-                      "i3  i8   i7  i9  i6"
-                      "i17 i4   i12 i5  i20" 
-                      "i11 i18  i2  i19 i15" 
-                      "i16 i13  i1  i10 i14"
-                      ;
-      }
-      90% {
+      // Fin
+      95% {
         grid-template-areas: 
                       "i3  i8   i7  i9  i6"
                       "i17 i4   i12 i5  i20" 
