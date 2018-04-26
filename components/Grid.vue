@@ -71,7 +71,7 @@ export default {
                          "i16 i13 i2  i10 i14"
                          ;
     transition: 1s all;
-    animation: move 5s forwards infinite linear alternate;
+    animation: move 6s forwards infinite linear alternate;
     @keyframes move {
       15% {
         grid-template-areas: 
