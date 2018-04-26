@@ -337,6 +337,7 @@
       .datos
         margin: 0 auto
         text-align: center
+        justify-content: center
     .post-list
       grid-gap: 15px
 
