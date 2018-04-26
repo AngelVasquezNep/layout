@@ -2,14 +2,10 @@
   .Grid
     .item.item1.center Súper animación
     .item.item2.center CSS Grid
-    .item.item3.center
-      button.btn  Animación 1
-    .item.item4.center 
-      button.btn  Animación 2
-    .item.item5.center
-      button.btn  Animación 3
-    .item.item6.center
-      button.btn  Animación 4
+    .item.item3.center Animaciones
+    .item.item4.center Animaciones
+    .item.item5.center Animaciones
+    .item.item6.center Animaciones
     .item.item7.center Layout
     .item.item8.center
     .item.item9.center
@@ -37,7 +33,7 @@ export default {
   .Grid {
     box-sizing: border-box;
     // grid-gap: 10px;
-    padding: 10px;
+    padding: 3px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
@@ -55,7 +51,7 @@ export default {
                          "i16 i13 i2  i10 i14"
                          ;
     transition: 1s all;
-    // animation: move 5s forwards infinite linear alternate;
+    animation: move 5s forwards infinite linear alternate;
     @keyframes move {
       0% {
         grid-template-areas: 
@@ -65,36 +61,84 @@ export default {
                       "i16 i13 i2  i10 i14"
                       ;
       }
-      25% {
+      10% {
         grid-template-areas: 
-                      "i17 i18 i1  i19 i20"
-                      "i3  i8  i7  i9  i6" 
+                      "i17 i18 i7  i19 i20"
+                      "i3  i8  i1  i9  i6" 
                       "i11 i4  i12 i5  i15" 
                       "i16 i13 i2  i10 i14"
+                      ;
+      }
+      20% {
+        grid-template-areas: 
+                      "i17 i8   i7  i9  i20"
+                      "i3  i18  i12 i19  i6" 
+                      "i11 i4   i1  i5  i15" 
+                      "i16 i13  i2  i10 i14"
+                      ;
+      }
+      30% {
+        grid-template-areas: 
+                      "i3  i8   i7  i9  i6"
+                      "i17 i4   i12 i5  i20" 
+                      "i11 i18  i2  i19 i15" 
+                      "i16 i13  i1  i10 i14"
+                      ;
+      }
+      40% {
+        grid-template-areas: 
+                      "i3  i9   i5  i19 i6"
+                      "i17 i7   i12 i2  i20" 
+                      "i11 i8   i4  i18 i15" 
+                      "i16 i13  i1  i10 i14"
                       ;
       }
       50% {
         grid-template-areas: 
-                      "i17 i18 i1  i19 i20"
-                      "i3  i8  i7  i9  i6" 
-                      "i11 i4  i12 i5  i15" 
-                      "i16 i13 i2  i10 i14"
+                      "i3  i19  i2  i18 i6"
+                      "i17 i5   i12 i4  i20" 
+                      "i11 i9   i7  i8  i15" 
+                      "i16 i13  i1  i10 i14"
                       ;
       }
-      75% {
+      60% {
         grid-template-areas: 
-                      "i17 i18 i1  i19 i20"
-                      "i3  i8  i7  i9  i6" 
-                      "i11 i4  i12 i5  i15" 
-                      "i16 i13 i2  i10 i14"
+                      "i3  i18   i4  i8  i6"
+                      "i17 i2   i12 i7  i20" 
+                      "i11 i19  i5  i9 i15" 
+                      "i16 i13  i1  i10 i14"
+                      ;
+      }
+      70% {
+        grid-template-areas: 
+                      "i3  i8   i7  i9  i6"
+                      "i17 i4   i12 i5  i20" 
+                      "i11 i18  i2  i19 i15" 
+                      "i16 i13  i1  i10 i14"
+                      ;
+      }
+      80% {
+        grid-template-areas: 
+                      "i3  i8   i7  i9  i6"
+                      "i17 i4   i12 i5  i20" 
+                      "i11 i18  i2  i19 i15" 
+                      "i16 i13  i1  i10 i14"
+                      ;
+      }
+      90% {
+        grid-template-areas: 
+                      "i3  i8   i7  i9  i6"
+                      "i17 i4   i12 i5  i20" 
+                      "i11 i18  i2  i19 i15" 
+                      "i16 i13  i1  i10 i14"
                       ;
       }
       100% {
         grid-template-areas: 
-                      "i17 i18 i1  i19 i20"
-                      "i3  i8  i7  i9  i6" 
-                      "i11 i4  i12 i5  i15" 
-                      "i16 i13 i2  i10 i14"
+                      "i3  i8   i7  i9  i6"
+                      "i17 i4   i12 i5  i20" 
+                      "i11 i18  i2  i19 i15" 
+                      "i16 i13  i1  i10 i14"
                       ;
       }
     }
