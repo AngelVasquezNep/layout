@@ -7,9 +7,11 @@
     .item.item3.center 
       img(src="~/assets/lego-5.png", alt="L")
     .item.item4.center 
-      img(src="~/assets/lego-5.png", alt="L")
+      //- img(src="~/assets/lego-5.png", alt="L")
+      img(src="~/assets/lego-3.png", alt="L")
     .item.item5.center 
-      img(src="~/assets/lego-5.png", alt="L")
+      //- img(src="~/assets/lego-5.png", alt="L")
+      img(src="~/assets/lego-6.png", alt="L")
     .item.item6.center 
       img(src="~/assets/lego-5.png", alt="L")
     .item.item7.center 
@@ -17,7 +19,8 @@
     .item.item8.center
       img(src="~/assets/lego-3.png", alt="L")
     .item.item9.center
-      img(src="~/assets/lego-4.png", alt="L")
+      //- img(src="~/assets/lego-4.png", alt="L")
+      img(src="~/assets/lego-6.png", alt="L")
     .item.item10.center
       img(src="~/assets/lego-2.png", alt="L")
     .item.item11.center
@@ -35,9 +38,11 @@
     .item.item17.center
       img(src="~/assets/lego-2.png", alt="L")
     .item.item18.center
-      img(src="~/assets/lego-6.png", alt="L")
+      //- img(src="~/assets/lego-6.png", alt="L")
+      img(src="~/assets/lego-3.png", alt="L")
     .item.item19.center
-      img(src="~/assets/lego-7.png", alt="L")
+      //- img(src="~/assets/lego-7.png", alt="L")
+      img(src="~/assets/lego-6.png", alt="L")
     .item.item20.center
       img(src="~/assets/lego-2.png", alt="L")
 </template>
@@ -71,7 +76,7 @@ export default {
                          "i16 i13 i2  i10 i14"
                          ;
     transition: 1s all;
-    animation: move 6s forwards infinite linear alternate;
+    animation: move 10s forwards infinite linear alternate;
     @keyframes move {
       15% {
         grid-template-areas: 
